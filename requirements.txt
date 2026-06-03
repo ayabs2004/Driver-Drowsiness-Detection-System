@@ -1,0 +1,7 @@
+# Project dependencies for Driver Drowsiness Detection
+# Install using: pip install -r requirements.txt
+
+tensorflow>=2.10.0
+opencv-python>=4.6.0
+pillow>=9.0.0
+numpy>=1.23.0

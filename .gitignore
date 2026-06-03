@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+processed_data/
+Driver Drowsiness.v4-640x640-no-augmentation.yolov8/
+*.dat
+*.h5
+*.keras
+*.caffemodel

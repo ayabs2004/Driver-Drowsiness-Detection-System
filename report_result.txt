@@ -1,0 +1,41 @@
+﻿--------------------------------------------------
+MODEL PERFORMANCE REPORT
+--------------------------------------------------
+Loading model: drowsiness_model.keras...
+Model loaded successfully.
+Loading test data from: c:\Users\aya\Documents\driver ai project\processed_data\test...
+Found 277 files belonging to 3 classes.
+Running inference on test set (this may take a moment)...
+
+==================================================
+CLASSIFICATION REPORT
+==================================================
+              precision    recall  f1-score   support
+
+  closed_eye       0.90      0.58      0.70        45
+    open_eye       0.92      0.77      0.84       150
+  open_mouth       0.66      0.99      0.79        82
+
+    accuracy                           0.80       277
+   macro avg       0.83      0.78      0.78       277
+weighted avg       0.84      0.80      0.80       277
+
+
+==================================================
+CONFUSION MATRIX
+==================================================
+True \ Pred | closed_eye | open_eye   | open_mouth
+--------------------------------------------------
+closed_eye |         26 |         10 |          9
+open_eye   |          2 |        115 |         33
+open_mouth |          1 |          0 |         81
+
+==================================================
+OVERALL ACCURACY: 80.14%
+==================================================
+
+==================================================
+TRAINING HISTORY CURVES
+==================================================
+
+ACCURACY EVOLUTION (Epochs 1 to 30)
